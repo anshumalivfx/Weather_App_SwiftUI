@@ -34,6 +34,7 @@ struct ForcastView: View {
                 .padding(.horizontal, 20)
                 
                 Image("Forecast Widgets")
+                    .opacity(bottomSheetTranslationProtated)
             }
         }
         .backgroundBlur(radius: 25, opaque: true)
